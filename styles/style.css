@@ -10,6 +10,8 @@
   padding: 0;
 }
 
+/* -----Shared Styles--------- */
+
 /* -----Header/Banner Section Style Start------ */
 header {
   background-color: #ffffff;
@@ -17,7 +19,7 @@ header {
 .banner-container {
   width: 82.5%;
   max-width: 1320px;
-  margin: 50px auto 50px;
+  margin: 50px auto 120px;
   border-radius: 16px;
   position: relative;
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
@@ -52,3 +54,50 @@ header {
   width: 632px;
 }
 /* -----Header/Banner Section Style End------ */
+
+/* ------Main Section style Start------- */
+main {
+  width: 82.5%;
+  max-width: 1320px;
+  margin: 50px auto 120px;
+  background-color: #ffffff;
+}
+
+/* ----Dicount Section ---- */
+.special-discount-container {
+  width: 60.8%;
+  max-width: 803px;
+  margin: 0 auto;
+}
+.discount-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.discount-text-container {
+  text-align: center;
+  font-family: "Inter", "sans-serif";
+  font-style: normal;
+  color: #f00;
+}
+.discount-text-container > h1 {
+  font-size: 88px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+.discount-text-container > p {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.discount-text-container > h3 {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+.discount-ads img {
+  width: 100%;
+}
+/* ----Discount Section style End----  */
