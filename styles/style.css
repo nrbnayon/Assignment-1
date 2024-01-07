@@ -67,7 +67,7 @@ main {
 .special-discount-container {
   width: 60.8%;
   max-width: 803px;
-  margin: 0 auto;
+  margin: 0 auto 120px;
 }
 .discount-items {
   display: flex;
@@ -101,3 +101,87 @@ main {
   width: 100%;
 }
 /* ----Discount Section style End----  */
+
+.midnight-party-container {
+  border-radius: 16px;
+  position: relative;
+}
+.midnight-bg {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  z-index: 1;
+}
+.party-bg-effects {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+  z-index: 2;
+}
+
+.party-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 39px;
+  z-index: 7;
+}
+
+.party-text-container {
+  flex: 1;
+  color: #ffffff;
+  margin-left: 50px;
+}
+
+.party-title {
+  width: 642px;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+  margin-bottom: 24px;
+}
+
+.party-desc {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.party-join-btn {
+  margin-top: 48px;
+  margin-left: 32px;
+  padding: 5px 32px;
+  color: #ffffff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: linear-gradient(45deg, rgba(41, 134, 216, 0.623), rgb(255, 0, 0));
+  align-items: center;
+  transition: transform 1s ease-in;
+  border: 0;
+}
+.party-join-btn:hover {
+  transform: scale(1.1);
+  background: linear-gradient(45deg, rgb(255, 0, 0), rgba(167, 107, 57, 0.623));
+}
+.party-year {
+  margin-right: 15px;
+}
+.party-year img {
+  width: 100%;
+}
