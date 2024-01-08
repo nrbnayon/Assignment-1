@@ -8,6 +8,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 /* -----Shared Styles--------- */
@@ -228,6 +229,7 @@ main {
   justify-content: space-between;
   align-items: center;
   height: 463px;
+  margin-bottom: 120px;
 }
 .container-left {
   flex: 1;
@@ -267,6 +269,16 @@ main {
   width: 100%;
   border-radius: 50%;
   border: 15px solid #f00;
+  transform: rotate(360deg);
+  animation: spin 20s infinite linear;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 .container-right {
   flex: 1;
@@ -293,3 +305,60 @@ main {
   width: 140px;
   height: 140px;
 }
+/* --------Best offer section End------ */
+
+/* --------portfolio section start------ */
+
+.portfolio-container {
+  width: 100%;
+  font-style: normal;
+  line-height: normal;
+  margin-bottom: 120px;
+}
+
+.portfolio-container > h4 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.portfolio-container > h3 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 22px;
+}
+.portfolio-container > p {
+  width: 896px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 48px;
+}
+.profolio-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  justify-content: space-between;
+  align-items: center;
+}
+.items {
+  width: 32%;
+  height: auto;
+  box-sizing: border-box;
+  background: transparent;
+  border-radius: 16px;
+  transition: transform 1s ease-in;
+}
+.items:hover {
+  transform: scale(1.08);
+  cursor: pointer;
+}
+.items img {
+  width: 100%;
+}
+/* --------portfolio section start------ */
