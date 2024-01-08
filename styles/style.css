@@ -222,17 +222,23 @@ main {
 /* -----Party Place end---------  */
 
 /* --------Best offer section start------ */
-
 .best-offer-container {
+  max-width: 1320px;
+  height: 465px;
+  margin-bottom: 120px;
+}
+.best-offer {
   width: 100%;
+  max-width: 1320px;
   display: flex;
+  /* gap: 5px; */
   justify-content: space-between;
   align-items: center;
   height: 463px;
-  margin-bottom: 120px;
 }
+
 .container-left {
-  flex: 1;
+  flex-grow: 30%;
   display: inline-block;
   line-height: normal;
   font-style: normal;
@@ -253,7 +259,7 @@ main {
   margin-bottom: 22px;
 }
 .offer-desc {
-  width: 410px;
+  width: 390px;
   color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
   font-size: 20px;
@@ -261,12 +267,12 @@ main {
   line-height: 32px;
 }
 .container-center {
-  flex: 1;
+  flex-grow: 30%;
+  justify-content: center;
+  align-items: center;
 }
 .container-center > img {
   padding: 20px;
-  height: auto;
-  width: 100%;
   border-radius: 50%;
   border: 15px solid #f00;
   transform: rotate(360deg);
@@ -281,8 +287,8 @@ main {
   }
 }
 .container-right {
-  flex: 1;
-  margin-left: 100px;
+  flex-grow: 30%;
+  display: inline-block;
   font-style: normal;
 }
 .container-right > h1 {
@@ -293,10 +299,11 @@ main {
   line-height: normal;
 }
 .container-right > p {
-  width: 276px;
+  width: 200px;
   color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
-  font-size: 20px;
+  font-size: 18px;
+  text-align: left;
   font-weight: 400;
   line-height: 30px;
   margin-bottom: 35px;
@@ -362,3 +369,103 @@ main {
   width: 100%;
 }
 /* --------portfolio section start------ */
+
+/* ------Newsletter section start------  */
+.newsletter-container {
+  width: 100%;
+  max-width: 1320px;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  border: 1px solid red;
+  padding: 40px;
+  margin-bottom: 120px;
+}
+
+.newsletters {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  font-style: normal;
+  line-height: normal;
+}
+
+.letters-icon {
+  width: 150px;
+  height: 150px;
+  border: none;
+  margin: 80px auto 40px;
+}
+
+.letter-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+.letter-desc {
+  margin: 0 100px;
+  border: 1px solid red;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.sub-button {
+  width: 100%;
+  max-width: 648px;
+  height: 72px;
+  margin: 48px auto 80px;
+  display: flex;
+  align-items: center;
+}
+
+.input-area {
+  width: 438px;
+  height: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 50px 0px 0px 50px;
+  outline: none;
+  border: none;
+  margin: 0;
+  font-size: 18px;
+  padding: 25px 0 25px 30px;
+}
+.input-area::placeholder {
+  color: rgba(7, 2, 17, 0.3);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.btn {
+  width: 210px;
+  height: 100%;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  margin: 0;
+  border: none;
+  outline: 0;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #edcb33;
+}
+/* ------Newsletter section end------  */
