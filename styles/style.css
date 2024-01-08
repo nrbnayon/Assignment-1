@@ -327,7 +327,7 @@ main {
 .container3 > p {
   color: rgba(7, 2, 17, 0.6);
   font-family: "Inter", cursive, sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 1.5;
   margin-bottom: 20px;
@@ -339,6 +339,100 @@ main {
 }
 
 /* --------Best offer section End------ */
+
+/* --------Holidays Discount Section start------ */
+.holidays-discount-container {
+  width: 100%;
+  max-width: 1320px;
+  text-align: center;
+  margin: 0 auto 120px;
+  position: relative;
+}
+.holidays-discount-text {
+  z-index: 10;
+  background: #ffffff;
+  position: relative;
+}
+.hoilday-title {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.discount-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.holiday-desc {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  padding: 28px 126px 64px;
+}
+.discount-title > span {
+  color: #f00;
+}
+.wow-discounts {
+  width: 100%;
+  position: relative;
+}
+.wow-discount-top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+}
+.wow-image1 {
+  position: absolute;
+  bottom: 50%;
+  left: -8%;
+  transform: translate(0, 50%);
+  z-index: 2;
+}
+.wow-image1 > img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.wow-image2 {
+  margin-left: 58.8%;
+  width: 429px;
+  height: 433px;
+  z-index: 5;
+}
+.wow-image2 img {
+  width: 100%;
+  height: auto;
+}
+
+.wow-bottom {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+.wow-bottom > img {
+  width: 100%;
+  height: auto;
+}
+.holi-dis-img {
+  position: absolute;
+  z-index: 999;
+  top: 39%;
+  right: 36%;
+  width: 206.841px;
+  height: 206.841px;
+}
+
+/* --------Holidays Discount Section End------ */
 
 /* --------portfolio section start------ */
 
@@ -397,7 +491,7 @@ main {
 .items img {
   width: 100%;
 }
-/* --------portfolio section start------ */
+/* --------portfolio section Ends------ */
 
 /* ------Newsletter section start------  */
 .newsletter-container {
