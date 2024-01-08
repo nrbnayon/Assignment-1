@@ -220,12 +220,14 @@ main {
 }
 /* -----Party Place end---------  */
 
+/* --------Best offer section start------ */
+
 .best-offer-container {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid red;
+  height: 463px;
 }
 .container-left {
   flex: 1;
@@ -258,7 +260,6 @@ main {
 }
 .container-center {
   flex: 1;
-  /* margin-left: 70px; */
 }
 .container-center > img {
   padding: 20px;
@@ -285,8 +286,8 @@ main {
   font-family: Inter;
   font-size: 20px;
   font-weight: 400;
-  line-height: 32px;
-  margin-bottom: 42px;
+  line-height: 30px;
+  margin-bottom: 35px;
 }
 .container-right > img {
   width: 140px;
