@@ -108,6 +108,7 @@ main {
 .midnight-party-container {
   border-radius: 16px;
   position: relative;
+  border-radius: 16px;
   margin-bottom: 120px;
 }
 .midnight-bg {
@@ -202,6 +203,19 @@ main {
     rgba(255, 0, 0, 0.1) 0%,
     rgba(255, 0, 0, 0) 100%
   );
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(
+      to right,
+      #7c1515,
+      #ff9900,
+      #ffff00,
+      #00ff00,
+      #0000ff,
+      #4b0082,
+      #9400d3
+    )
+    1;
   margin-bottom: 120px;
 }
 .party-place {
@@ -213,6 +227,10 @@ main {
   font-weight: 600;
   line-height: 56px;
   text-transform: capitalize;
+  margin-bottom: 110px;
+}
+#bottom {
+  margin-right: 20px;
 }
 .party-place > p {
   color: #070211;
