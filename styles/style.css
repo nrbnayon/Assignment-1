@@ -177,7 +177,8 @@ main {
   background: linear-gradient(45deg, rgba(41, 134, 216, 0.623), rgb(255, 0, 0));
   align-items: center;
   transition: transform 1s ease-in;
-  border: 0;
+  border: none;
+  cursor: pointer;
 }
 .party-join-btn:hover {
   transform: scale(1.1);
